@@ -1,0 +1,76 @@
+.typecard-container {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 4vmin;
+    column-gap: 2vmin;
+    row-gap: 2vmin;
+    
+}
+
+.typecard a{
+    width: 70vmin;
+    height: 50vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#f44336;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.typecard:hover {
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px rgb(0 0 0 / 70%);
+    transform: translate3d(0px, -4vh, 0px);
+}
+
+.typecard-img {
+    height: 30vmin;
+    width: 30vmin;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.typecard-text {
+
+    font-weight: 800;
+    font-size: 4vmin;
+    text-align: center;
+}
+
+
+.quote-button-container{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f44336;
+    color: white;
+    border-radius: 30px;
+    font-weight: 800;
+    padding :3vmin;
+    margin: 5vmin;
+    text-align: center;
+    flex-wrap: column;
+}
+
+.quote-button{
+    text-decoration: none;
+}
+ 
+.quote-button-container:hover{
+
+    color: black;
+
+
+}

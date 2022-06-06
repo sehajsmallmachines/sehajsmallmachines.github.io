@@ -1,0 +1,26 @@
+
+.quote-button-container{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f44336;
+    color: white;
+    border-radius: 30px;
+    font-weight: 800;
+    padding :3vmin;
+    margin: 5vmin;
+    text-align: center;
+    flex-wrap: column;
+}
+
+.quote-button{
+    text-decoration: none;
+    font-size: 5vmin;
+}
+ 
+.quote-button-container:hover{
+
+    color: black;
+
+
+}

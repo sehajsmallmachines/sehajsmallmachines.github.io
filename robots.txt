@@ -1,5 +1,1 @@
-User-agent: *
-User-agent: Googlebot
-User-agent: AdsBot-Google
-
 Sitemap: https://www.sehajsmallmachines.co.in/sitemap.xml

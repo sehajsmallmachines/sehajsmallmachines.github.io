@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto;
+    /* margin: auto; */
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -13,9 +13,9 @@
     
 }
 
-.typecard a{
-    width: 70vmin;
-    height: 50vmin;
+.typecard {
+
+    padding: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +25,7 @@
     border: 1px solid black;
     text-decoration: none;
 }
+
 
 .typecard:hover {
     cursor:pointer;
@@ -47,30 +48,39 @@
     font-weight: 800;
     font-size: 4vmin;
     text-align: center;
+    word-wrap: normal;
 }
 
-
-.quote-button-container{
-    display : flex;
+.machine-card-container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f44336;
-    color: white;
-    border-radius: 30px;
-    font-weight: 800;
-    padding :3vmin;
-    margin: 5vmin;
-    text-align: center;
-    flex-wrap: column;
+
 }
 
-.quote-button{
-    text-decoration: none;
+.machine-card-imgs-container{
+   display: flex;
+   flex-direction: row;
+   column-gap: 7vW;
+
+   /* height: 67vh;
+   width :85vw; */
+   align-items: center;
+   justify-content: center;
 }
- 
-.quote-button-container:hover{
 
-    color: black;
+.machine-card-imgs-secondary-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7vmin;
+}
 
-
+.machine-card-img-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 55vmax;
+    width: 55vmax;
 }

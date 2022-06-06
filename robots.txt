@@ -1,3 +1,2 @@
 User-agent: *
-Allow:/index.html
-Allow:/wallnut_peeler_mac.html
+Sitemap: https://www.sehajsmallmachines.co.in/sitemap.xml

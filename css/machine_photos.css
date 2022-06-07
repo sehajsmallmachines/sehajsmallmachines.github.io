@@ -7,7 +7,7 @@
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    padding: 4vmin;
+    /* padding: 1vmin; */
     column-gap: 2vmin;
     row-gap: 2vmin;
     
@@ -24,6 +24,7 @@
     color: white;
     border: 1px solid black;
     text-decoration: none;
+    width:43vmin;
 }
 
 
